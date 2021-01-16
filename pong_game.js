@@ -1,3 +1,4 @@
+// merge the code its better than yours
 var xBall = Math.floor(Math.random () *300) +50;
 var yBall = 50;
 var xSpeed = (2,7);
@@ -53,4 +54,9 @@ function paddle() {
     ySpeed *= -1;
     Score++;
   }   
+}
+function time(){
+   var hour=hours();
+  var min=minutes();
+  text(`TIME : ${hour} : ${min}`,width/3,40);
 }
