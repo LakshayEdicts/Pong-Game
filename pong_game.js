@@ -1,3 +1,5 @@
+// merge the code its better than yours
+// its my fake id i will contact you with my another id okay
 var xBall = Math.floor(Math.random () *300) +50;
 var yBall = 50;
 var xSpeed = (2,7);
@@ -54,3 +56,9 @@ function paddle() {
     Score++;
   }   
 }
+function time(){
+   var hour=hours();
+  var min=minutes();
+  text(`TIME : ${hour} : ${min}`,width/3,40);
+}
+
